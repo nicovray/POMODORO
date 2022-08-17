@@ -75,7 +75,7 @@ function handleTicks(){
     displayWork.textContent = returnFormatedTime(initialTime)
     displayPause.textContent = returnFormatedTime(restTime)
     cyclesNumber++;
-    cycles.textContent = `Cycle(s) : ${(cyclesNumber)}`
+    cycles.textContent = `Cycle(s) : ${cyclesNumber}`
   }
 }
 
